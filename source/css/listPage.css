@@ -1,0 +1,29 @@
+.article-list {
+
+}
+
+.article-list a{
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px dashed #aaa;
+  color: #333;
+}
+
+.article-list li:last-child a{
+  border: none;  
+}
+
+.article-list a:hover >.article-t{
+  color: #ea3e31;
+}
+
+.article-list a .time {
+  display: inline-block;
+  color: #aaa;  
+  margin-right: 10px;
+}
+
+.article-list a .article-t{
+  
+}
