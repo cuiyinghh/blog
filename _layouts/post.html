@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include headConf.html %}
+<body>
+{% include nav.html %}
+
+<div class="main">
+  <h2 class="post-title">{{page.title}}</h2>
+  <p class="time-place">{{page.date | date: "%Y-%m-%d"}}&nbsp;&nbsp;{{page.place}}</p>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</div>
+</body>
+</html>

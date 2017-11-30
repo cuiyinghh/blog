@@ -1,0 +1,16 @@
+.post-title {
+  line-height: 200%;
+  font-size: 24px;
+}
+
+.time-place {
+  margin-bottom: 32px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.post-content p {
+  margin: 14px 0;
+  line-height: 150%;
+}
+
