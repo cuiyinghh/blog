@@ -7,7 +7,7 @@ title: 土豆骗子的日记本
 <ul class="article-list">
 	{% for post in site.posts %}
 		<li>
-			<a href="{{ site.baseurl }}{{ post.url }}">
+			<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
 				<span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
 				<span class="article-t">{{ post.title }}</span>
 			</a>

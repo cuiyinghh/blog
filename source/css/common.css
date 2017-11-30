@@ -1,4 +1,14 @@
+color-1 {
+  color: #21d2d6;
+}
 
+color-2 {
+  color: #e6d627;
+}
+
+color-3 {
+  color: #e65d52;
+}
 
 
 html, body {
@@ -14,11 +24,11 @@ body {
 
 @font-face {
   font-family: 'iconfont';  /* project id 491714 */
-  src: url('//at.alicdn.com/t/font_491714_bx4vg7ahwweo2yb9.eot');
-  src: url('//at.alicdn.com/t/font_491714_bx4vg7ahwweo2yb9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_491714_bx4vg7ahwweo2yb9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_491714_bx4vg7ahwweo2yb9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_491714_bx4vg7ahwweo2yb9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_491714_a7jim794lapmbo6r.eot');
+  src: url('//at.alicdn.com/t/font_491714_a7jim794lapmbo6r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_491714_a7jim794lapmbo6r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_491714_a7jim794lapmbo6r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_491714_a7jim794lapmbo6r.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family:"iconfont" !important;
@@ -30,8 +40,13 @@ body {
   color: #aaa;
 }
 
-.iconfont:hover {
-  color: #ea3e31;
+@font-face {
+  font-family: thinFont;
+  src: url(../font/thin.otf);
+}
+
+.links:hover {
+  color: #e65d52;
 }
 
 .header,
@@ -40,8 +55,8 @@ body {
 }
 
 .header {
-  width: 1200px;
-  height: 180px;
+  width: 1100px;
+  height: 220px;
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 0 50px rgba(0,0,0,0.08);
@@ -49,24 +64,60 @@ body {
 }
 
 .main {
+  position: relative;
   width: 900px; 
   min-height: 400px; 
   box-sizing: border-box;
   margin-top: -16px;
   background: #fff;
-  padding: 20px; 
+  padding: 40px 20px 20px;
   box-shadow: 0 0 50px rgba(0,0,0,0.08);
 }
 
 .header .site-title {
-  margin: 10px 0 10px 0;
-  font-size: 24px;
+  display: block;
+  margin-top: 10px;
+  border-bottom: 1px dashed #21d2d6;
+  padding-bottom: 10px;
+  font-size: 46px;
+  font-family: thinFont;
+  color: #21d2d6;
 }
 
 .header .person-intro {
+  padding: 10px 0;
+  border-bottom: 1px dashed #21d2d6;
   color: #aaa;
 }
 
 .header .cy-links {
-  margin-top: 16px;
+  border-bottom: 1px dashed #21d2d6;
+  padding: 6px 0;
+}
+
+.header .cy-links a {
+  margin-right: 8px;
+}
+
+.pin-one,
+.pin-two,
+.pin-three {
+  position: absolute;
+  top: -12px;
+  font-size: 38px;
+}
+
+.pin-one {
+  left: 10px;
+  color: #e65d52;
+}
+
+.pin-two {
+  left: 30px;  
+  color: #e6d627;
+}
+
+.pin-three {
+  left: 720px;  
+  color: #21d2d6;
 }

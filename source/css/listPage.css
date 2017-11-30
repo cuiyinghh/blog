@@ -6,7 +6,7 @@
   display: block;
   height: 36px;
   line-height: 36px;
-  border-bottom: 1px dashed #aaa;
+  border-bottom: 1px dashed #21d2d6;
   color: #333;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .article-list a:hover >.article-t{
-  color: #ea3e31;
+  color: #e65d52;
 }
 
 .article-list a .time {
