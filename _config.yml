@@ -1,12 +1,1 @@
 baseurl: /blog/
- 
-
-markdown: kramdown
-kramdown:
-  input: GFM
-highlighter: rouge
-
-permalink: pretty
-
-gems:
-- jekyll-paginate
