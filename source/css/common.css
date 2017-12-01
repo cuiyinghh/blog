@@ -1,15 +1,8 @@
-color-1 {
+.color {
   color: #21d2d6;
-}
-
-color-2 {
   color: #e6d627;
-}
-
-color-3 {
   color: #e65d52;
 }
-
 
 html, body {
   height: 100%;
